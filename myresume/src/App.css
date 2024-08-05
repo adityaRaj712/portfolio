@@ -1,0 +1,12 @@
+.app {
+  padding: 20px;
+  background-color: #181A1B;
+}
+
+.header,
+.about,
+.experience,
+.side-projects {
+  max-width: 800px;
+  margin: 0 auto;
+}

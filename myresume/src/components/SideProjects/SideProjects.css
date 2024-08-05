@@ -1,0 +1,63 @@
+.side-projects {
+    margin-bottom: 40px;
+  }
+  
+  .project {
+    background-color: #202225;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .project h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #FFD700;
+  }
+  
+  .project p {
+    color: #AAA9AD;
+    margin-bottom: 10px;
+  }
+  
+  .technologies {
+    margin-top: 10px;
+  }
+  
+  .technologies span {
+    display: inline-block;
+    background-color: #34373B;
+    color: #FFD700;
+    padding: 1px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+  }
+  
+  /* Styling for the GitHub link with an arrow */
+  .project a {
+    display: inline-block;
+    color: #485ff2;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .project a::after {
+    content: '↗'; /* Arrow symbol */
+    margin-left: 5px;
+    transition: margin-left 0.2s ease;
+  }
+  
+  .project a:hover::after {
+    margin-left: 10px; /* Move the arrow slightly to the right on hover */
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  

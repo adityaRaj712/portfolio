@@ -1,0 +1,33 @@
+.experience {
+    margin-bottom: 40px;
+  }
+  
+  .job {
+    margin-bottom: 30px;
+  }
+  
+  .job h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .job p {
+    color: #AAA9AD;
+    margin: 5px 0;
+  }
+  
+  .technologies {
+    margin-top: 10px;
+  }
+  
+  .technologies span {
+    display: inline-block;
+    background-color: #34373B;
+    color: #FFD700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 120px; /* Set a fixed width */
+    height: 120px; /* Set a fixed height */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    margin-right: 20px; /* Space between the image and the text */
+    box-shadow: 0 5px 20px rgba(17, 124, 245, 0.5); /* Optional shadow for better visibility */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #AAA9AD;
+  }
+  
